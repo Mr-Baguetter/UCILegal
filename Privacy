@@ -1,45 +1,51 @@
-# Privacy Policy
+Privacy Policy
 
-**Effective Date:** 10/2/2025
-**Last Updated:** 10/2/2025
+Effective Date: 10/2/2025
+Last Updated: 10/2/2025
 
 This Privacy Policy explains how we handle your information when you log in with Discord.
 
-## 1. Information We Collect
+1. Information We Collect
 
 When you log in via Discord OAuth2, we receive:
 
-* Your Discord user ID (required).
-* Your Discord username and discriminator (may be retrieved but not always stored).
+Your Discord user ID (required).
 
-We do **not** collect your email, friends list, or other Discord data.
-We do **not** ask for additional scopes beyond `identify`.
+Your Discord username and discriminator (may be retrieved but not always stored).
 
-## 2. How We Use Information
+We do not collect your email, friends list, or other Discord data.
+We do not ask for additional scopes beyond identify.
 
-* To verify your identity and authorize access.
-* To issue a short-lived session token (JWT).
-* To check if you are on the list of authorized users.
+2. How We Use Information
 
-## 3. Data Retention
+To verify your identity and authorize access.
 
-* We do not permanently store your data in databases, except where technically necessary for logs or security.
-* Logs may include your Discord ID for debugging/security but are not shared.
+To issue a short-lived session token (JWT).
 
-## 4. Sharing
+To check if you are on the list of authorized users.
+
+3. Data Retention
+
+JWTs expire automatically (e.g., 24 hours).
+
+We do not permanently store your data in databases, except where technically necessary for logs or security.
+
+Logs may include your Discord ID for debugging/security but are not shared.
+
+4. Sharing
 
 We do not sell, rent, or share your personal information with third parties.
 Your data may be shared with Discord solely for the purpose of OAuth authentication.
 
-## 5. Security
+5. Security
 
 We use standard security practices (HMAC-SHA256 signed JWTs, HTTPS, Cloudflare environment security).
 No method of transmission is 100% secure, but we take reasonable measures to protect your information.
 
-## 6. Your Rights
+6. Your Rights
 
 You may request deletion of any logged information tied to your account by contacting us.
 
-## 7. Changes
+7. Changes
 
 We may update this Privacy Policy at any time. Continued use after changes constitutes acceptance.
